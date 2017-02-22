@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	 -box-sizing: border-box; 
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.card {
+	display: inline-block;
+	margin: 130px 100px;
+	min-height: 684px;
+	padding: 0;
+	width: 1400px;
+	height: 940px;
+	background: #FFF;
+	-webkit-box-shadow: 0 4px 68px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 4px 68px 0 rgba(0,0,0,.1);
+	box-shadow: 0 4px 68px 0 rgba(0,0,0,.1);
+}
+.title{
+	padding: 125px 0 0 115px;
+	height: 156px;
+}
+.title-style {
+	font-family: 'latolight';
+	font-size: 42px;
+	font-weight: normal;
+	letter-spacing: -0.1px;
+	margin: 0;
+	color: ;
+}
+.t {
+	font-family: 'latolight', Arial, serif;
+	float: left;
+	font-size: 113px;
+	width: 210px;
+	height: 111px;
+	padding-left: 111px;
+	padding-top: 22px;
+}
+.t-style {
+	margin: 0;
+	padding: 0;
+}
+.text1 {
+	font-family: 'latolight', Arial, serif;
+	margin: 0 111px 0 0;
+	line-height: 1.7;
+	font-size: 20px;
+	color: #C3C3C3;
+}
+.blok1 {
+	padding: 39px 70px 0 111px;
+}
+.blok2 {
+	padding: 39px 161px 0 111px;
+}
+.text2 {
+	font-family: 'latolight', Arial, serif;
+	margin: 0 111px 0 0;
+	line-height: 1.7;
+	font-size: 20px;
+	color: #C3C3C3;
+}
+.blok3 {
+	padding: 39px 161px 0 111px;
+}
+.text3 {
+	font-family: 'latolight', Arial, serif;
+	margin: 0 111px 0 0;
+	line-height: 1.7;
+	font-size: 20px;
+	color: #C3C3C3;
+}
+.blok4 {
+	padding: 34px 161px 0 111px;
+}
+.text4 {
+	font-family: 'latolight', Arial, serif;
+	margin: 0 111px 0 0;
+	line-height: 1.7;
+	font-size: 26px;
+	font-style: italic;
+	padding: 0 0 0 51px;
+	color: #C3C3C3;
+}
+.button {
+	font-family: 'latolight', Arial, serif;
+	margin: 9px 0 0 2px;
+	min-height: 19px;
+	padding: 23px 4px 22px; 
+	width: 262px;
+	border: 3px solid #eaa258;
+	color: #eaa258;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 28px 0 0 114px;
+}
